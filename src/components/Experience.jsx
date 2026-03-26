@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Briefcase, GraduationCap, Award, ExternalLink } from 'lucide-react';
+import { Briefcase, GraduationCap, Award, ExternalLink, Code } from 'lucide-react';
 
 export default function Experience() {
   const experiences = [
@@ -39,11 +39,12 @@ export default function Experience() {
     },
     {
       type: 'training',
-      title: 'Participant & Awardee',
-      org: 'Elite Coders Winter of Code (ECWoC)',
-      date: 'Winter',
-      desc: 'Recognized as a participant and awardee in the ECWoC open-source program, contributing to complex software projects.',
-      icon: <Award size={20} className="text-white" />
+      title: 'Solved 100+ Coding Questions',
+      org: 'LeetCode',
+      date: 'Continuous',
+      desc: 'Actively solving complex algorithmic and data structure problems to continuously improve problem-solving logic and coding efficiency.',
+      icon: <Code size={20} className="text-white" />,
+      link: 'https://leetcode.com/u/vaanshgarg/'
     }
   ];
 
